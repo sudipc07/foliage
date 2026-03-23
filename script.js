@@ -71,7 +71,7 @@ const menuItems = [
   { name: "Spice Level", cat: "malatang", desc: "No spice, mild, medium or spicy \u2014 your choice." },
   { name: "Meat Skewer", cat: "malatang", desc: "Premium meat per skewer." },
   { name: "Seafood Skewer", cat: "malatang", desc: "Fresh seafood per skewer." },
-  { name: "Tofu or Meatball", cat: "malatang", desc: "Per skewer or bunch.", v: true },
+  { name: "Tofu \ud83c\udf31 or Meatball", cat: "malatang", desc: "Per skewer or bunch." },
   { name: "Vegetables", cat: "malatang", desc: "Fresh vegetables per bunch.", v: true },
   { name: "Noodles", cat: "malatang", desc: "Add noodles to your bowl.", v: true },
   { name: "Egg", cat: "malatang", desc: "Add egg to your bowl." },
@@ -151,11 +151,6 @@ function renderMenu() {
 
   if (activeCategory === "malatang") {
     specialHTML = `
-      <div class="steam-wrap" aria-hidden="true">
-        <div class="steam-line"></div>
-        <div class="steam-line"></div>
-        <div class="steam-line"></div>
-      </div>
       <div class="malatang-intro">
         <div class="malatang-chars">\u9EBB\u8FA3\u70EB</div>
         <div class="malatang-desc">Numbing. Spicy. Piping hot. Build your own bowl, Sichuan street-food style.</div>
