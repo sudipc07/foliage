@@ -4,18 +4,18 @@ const menuItems = [
   { name: "Bread & Spread", cat: "breakfast", desc: "Toast with honey, jam, marmalade, vegemite or nutella." },
   { name: "Muesli Yoghurt Bowl", cat: "breakfast", desc: "Seasonal fruits with muesli.", v: true },
   { name: "Bacon & Egg Roll", cat: "breakfast", desc: "Served on a soft roll." },
-  { name: "Eggs on Toast", cat: "breakfast", desc: "Choice of fried, poached or scrambled.", v: true },
+  { name: "Eggs on Toast", cat: "breakfast", desc: "Choice of fried, poached or scrambled." },
   { name: "Smashed Avocado on Sourdough", cat: "breakfast", desc: "Add eggs available.", v: true },
   { name: "Brekky Wrap", cat: "breakfast", desc: "Bacon, scrambled eggs, sausages, hashbrown, cheese, baby spinach, BBQ sauce." },
   { name: "Big Breakfast", cat: "breakfast", desc: "Bacon, scrambled eggs, sausages, hashbrown, baby spinach, grilled tomato, mushroom with toast." },
-  { name: "Vegetarian Breakfast", cat: "breakfast", desc: "Scrambled eggs, avocado, grilled halloumi, mushroom, baby spinach, roasted tomato, hashbrown with toast.", v: true },
+  { name: "Vegetarian Breakfast", cat: "breakfast", desc: "Scrambled eggs, avocado, grilled halloumi, mushroom, baby spinach, roasted tomato, hashbrown with toast." },
   { name: "The Omelette", cat: "breakfast", desc: "Bacon, tomato, mushroom, onion, shallot, spinach, feta with toast." },
   { name: "Salmon Croissant", cat: "breakfast", desc: "Smoked salmon, scrambled eggs, capers, onion, spinach on a croissant." },
   { name: "Eggs Benedict", cat: "breakfast", desc: "Salmon, poached eggs, baby spinach, feta, hollandaise sauce on sourdough." },
-  { name: "Creamy Mushroom Toast", cat: "breakfast", desc: "Poached eggs, garlic, chilli flakes, parsley, lemon, feta & cream cheese.", v: true },
+  { name: "Creamy Mushroom Toast", cat: "breakfast", desc: "Poached eggs, garlic, chilli flakes, parsley, lemon, feta & cream cheese." },
   { name: "Truffle Eggs", cat: "breakfast", desc: "Truffle scrambled eggs with parmesan, halloumi & avocado on sourdough." },
   { name: "French Toast", cat: "breakfast", desc: "Brioche with strawberries, banana, blueberries, Canadian maple syrup & mascarpone." },
-  { name: "Brekky Bowl", cat: "breakfast", desc: "Quinoa, kale, avocado, beetroot, tomato, halloumi, hommus & poached egg.", v: true },
+  { name: "Brekky Bowl", cat: "breakfast", desc: "Quinoa, kale, avocado, beetroot, tomato, halloumi, hommus & poached egg." },
   { name: "The Rustic", cat: "breakfast", desc: "Bread stuffed with bacon, mushroom, tomatoes, sausages, spinach, egg & cheese, oven-baked." },
 
   // GOURMET PIES
@@ -74,7 +74,7 @@ const menuItems = [
   { name: "Tofu or Meatball", cat: "malatang", desc: "Per skewer or bunch.", v: true },
   { name: "Vegetables", cat: "malatang", desc: "Fresh vegetables per bunch.", v: true },
   { name: "Noodles", cat: "malatang", desc: "Add noodles to your bowl.", v: true },
-  { name: "Egg", cat: "malatang", desc: "Add egg to your bowl.", v: true },
+  { name: "Egg", cat: "malatang", desc: "Add egg to your bowl." },
 
   // DRINKS
   { name: "Latte", cat: "drinks", desc: "Smooth espresso with steamed milk. Small or large." },
