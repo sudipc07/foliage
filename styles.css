@@ -1110,9 +1110,10 @@ img { max-width: 100%; height: auto; display: block; }
   }
 
   .drawer-item-name .veg-mark {
-    font-family: 'Caveat', cursive;
-    font-size: 16px;
-    color: #7aab86;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #8fcc9a;
   }
 
   .drawer-item-desc {
