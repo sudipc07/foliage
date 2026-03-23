@@ -698,10 +698,9 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .menu-item-name .veg-mark {
-  display: inline-flex;
-  align-items: center;
-  color: #8fcc9a;
+  font-size: 13px;
   vertical-align: middle;
+  margin-left: 2px;
 }
 
 .menu-item-desc {
