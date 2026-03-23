@@ -18,7 +18,7 @@
   <meta name="twitter:image" content="https://foliagecafe.pages.dev/images/coffee3.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -176,27 +176,46 @@
 
   <!-- MENU -->
   <section class="menu-section" id="menu">
-    <div class="container">
-      <div class="menu-header reveal">
-        <div class="menu-header-left">
-          <span class="label">Our Menu</span>
-          <h2>Made fresh, served with care</h2>
-        </div>
-        <div class="menu-controls">
-          <div class="menu-tabs" role="tablist" aria-label="Menu categories">
-            <button class="menu-tab active" role="tab" aria-selected="true" data-category="all">All</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="breakfast">Breakfast</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="pies">Pies</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="fried-chicken">Fried Chicken</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="lunch-dinner">Lunch &amp; Dinner</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="malatang">Malatang</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="drinks">Drinks</button>
-            <button class="menu-tab" role="tab" aria-selected="false" data-category="smoothies-juices">Smoothies &amp; Juices</button>
-          </div>
-          <input type="search" class="menu-search" placeholder="Search menu..." aria-label="Search menu items">
+    <div class="menu-intro">
+      <span class="menu-label">OUR MENU</span>
+      <h2 class="menu-headline">Made fresh, served with care</h2>
+      <p class="menu-subtitle">Something for everyone — from your morning coffee ritual to an afternoon Malatang bowl</p>
+    </div>
+    <div class="menu-tabs-wrap">
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="menu-tab active" role="tab" aria-selected="true" data-category="breakfast">Breakfast</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-category="pies">Gourmet Pies</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-category="fried-chicken">Fried Chicken</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-category="lunch-dinner">Lunch &amp; Dinner</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-category="malatang">Malatang</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-category="drinks">Drinks</button>
+        <button class="menu-tab" role="tab" aria-selected="false" data-category="smoothies-juices">Smoothies &amp; Juices</button>
+      </div>
+    </div>
+    <div class="chalkboard">
+      <div class="chalk-corner chalk-tl" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" stroke="#2a3528" stroke-width="1.2"><path d="M5 75C5 45 15 20 40 10C55 5 70 8 75 5"/><path d="M10 70C15 50 25 30 45 18"/><path d="M8 60C12 48 20 35 35 25"/></svg></div>
+      <div class="chalk-corner chalk-tr" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" stroke="#2a3528" stroke-width="1.2"><path d="M75 75C75 45 65 20 40 10C25 5 10 8 5 5"/><path d="M70 70C65 50 55 30 35 18"/><path d="M72 60C68 48 60 35 45 25"/></svg></div>
+      <div class="chalk-corner chalk-bl" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" stroke="#2a3528" stroke-width="1.2"><path d="M5 5C5 35 15 60 40 70C55 75 70 72 75 75"/><path d="M10 10C15 30 25 50 45 62"/><path d="M8 20C12 32 20 45 35 55"/></svg></div>
+      <div class="chalk-corner chalk-br" aria-hidden="true"><svg viewBox="0 0 80 80" fill="none" stroke="#2a3528" stroke-width="1.2"><path d="M75 5C75 35 65 60 40 70C25 75 10 72 5 75"/><path d="M70 10C65 30 55 50 35 62"/><path d="M72 20C68 32 60 45 45 55"/></svg></div>
+      <div class="chalk-breakfast-sun" id="chalkSun" aria-hidden="true">
+        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="#d4c9a0" stroke-width="1.5" stroke-linecap="round"><circle cx="18" cy="18" r="7"/><line x1="18" y1="3" x2="18" y2="7"/><line x1="18" y1="29" x2="18" y2="33"/><line x1="3" y1="18" x2="7" y2="18"/><line x1="29" y1="18" x2="33" y2="18"/><line x1="7.4" y1="7.4" x2="10.2" y2="10.2"/><line x1="25.8" y1="25.8" x2="28.6" y2="28.6"/><line x1="7.4" y1="28.6" x2="10.2" y2="25.8"/><line x1="25.8" y1="10.2" x2="28.6" y2="7.4"/></svg>
+        <span>Until 12pm</span>
+      </div>
+      <div id="chalkSpecial"></div>
+      <div class="menu-grid" id="menuGrid" role="list" aria-live="polite"></div>
+      <div class="chalk-note" id="chalkNote"></div>
+    </div>
+    <!-- Mobile bottom sheet -->
+    <div class="drawer-overlay" id="drawerOverlay"></div>
+    <div class="drawer" id="drawer" role="dialog" aria-modal="true">
+      <div class="drawer-header" id="drawerHeader">
+        <div class="drawer-handle"></div>
+        <div class="drawer-title-row">
+          <span class="drawer-title" id="drawerTitle"></span>
+          <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
         </div>
       </div>
-      <div class="menu-grid" role="list" aria-live="polite" id="menuGrid"></div>
+      <div class="drawer-body" id="drawerBody"></div>
     </div>
   </section>
 
