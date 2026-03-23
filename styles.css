@@ -242,7 +242,7 @@ img { max-width: 100%; height: auto; display: block; }
 .marquee-track span {
   font-size: 0.8rem;
   font-weight: 500;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.78);
   padding: 0 24px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -342,7 +342,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .coffee .label { color: var(--latte); background: rgba(200,182,155,0.12); }
 .coffee h2 { color: var(--white); margin-bottom: 20px; font-size: clamp(2rem, 3.5vw, 2.8rem); }
-.coffee .section-desc { color: rgba(255,255,255,0.65); font-size: 0.98rem; max-width: 480px; margin-bottom: 56px; line-height: 1.7; }
+.coffee .section-desc { color: rgba(255,255,255,0.8); font-size: 0.98rem; max-width: 480px; margin-bottom: 56px; line-height: 1.7; }
 
 .coffee-grid {
   display: grid;
@@ -388,7 +388,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .coffee-card p {
   font-size: 0.85rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.78);
   line-height: 1.65;
 }
 
@@ -778,7 +778,7 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .why-card p {
-  font-size: 0.9rem; color: rgba(255,255,255,0.6);
+  font-size: 0.9rem; color: rgba(255,255,255,0.78);
   line-height: 1.65;
 }
 
@@ -804,7 +804,7 @@ img { max-width: 100%; height: auto; display: block; }
   font-size: 0.78rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   font-weight: 500;
 }
 
