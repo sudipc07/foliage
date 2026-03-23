@@ -183,7 +183,7 @@ function renderMenu() {
     <div class="menu-item" role="listitem" style="animation-delay:${i * 40}ms">
       <div class="menu-item-name">
         ${item.name}
-        ${item.v ? '<span class="veg-mark">(v)</span>' : ''}
+        ${item.v ? '<span class="veg-mark" aria-label="Vegetarian"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66L7 18"/><path d="M17 8c-4 0-8.5 2-11 6"/><path d="M17 8c.7-2.3 1.1-4.8 1-7.5C14.8.8 12.3 1.2 10 2c0 0 4 4.5 7 6"/></svg></span>' : ''}
       </div>
       <div class="menu-item-desc">${item.desc}</div>
     </div>
@@ -319,7 +319,7 @@ document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
     items.forEach(item => {
       bodyHTML += '<div class="drawer-item">';
       bodyHTML += '<div class="drawer-item-name">' + item.name;
-      if (item.v) bodyHTML += ' <span class="veg-mark">(v)</span>';
+      if (item.v) bodyHTML += ' <span class="veg-mark" aria-label="Vegetarian"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8C8 10 5.9 16.17 3.82 21.34l1.89.66L7 18"/><path d="M17 8c-4 0-8.5 2-11 6"/><path d="M17 8c.7-2.3 1.1-4.8 1-7.5C14.8.8 12.3 1.2 10 2c0 0 4 4.5 7 6"/></svg></span>';
       bodyHTML += '</div>';
       bodyHTML += '<div class="drawer-item-desc">' + item.desc + '</div>';
       bodyHTML += '</div>';

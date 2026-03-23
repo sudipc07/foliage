@@ -698,10 +698,10 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .menu-item-name .veg-mark {
-  font-family: 'Inter', sans-serif;
-  font-size: 12px;
-  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
   color: #8fcc9a;
+  vertical-align: middle;
 }
 
 .menu-item-desc {
@@ -1110,10 +1110,10 @@ img { max-width: 100%; height: auto; display: block; }
   }
 
   .drawer-item-name .veg-mark {
-    font-family: 'Inter', sans-serif;
-    font-size: 12px;
-    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
     color: #8fcc9a;
+    vertical-align: middle;
   }
 
   .drawer-item-desc {
