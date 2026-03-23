@@ -544,17 +544,83 @@ img { max-width: 100%; height: auto; display: block; }
   text-transform: uppercase; letter-spacing: 0.5px;
 }
 
-.tag-vegan { background: rgba(61,107,88,0.08); color: var(--moss); }
-.tag-dairy-free { background: rgba(100,160,210,0.1); color: #4a8ab5; }
+.tag-vegetarian { background: rgba(61,107,88,0.08); color: var(--moss); }
+.tag-halal { background: rgba(39,119,73,0.1); color: #1a7a3a; }
 .tag-spicy { background: rgba(196,112,75,0.1); color: var(--terracotta); }
-.tag-chefs-pick { background: rgba(200,182,155,0.2); color: #96783a; }
 
-.menu-item-price {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.1rem; font-weight: 700;
-  color: var(--moss);
-  white-space: nowrap;
+/* Halal badge for section headers */
+.menu-section-header {
+  grid-column: 1 / -1;
+  display: flex; align-items: center; gap: 12px;
+  padding: 20px 0 8px;
 }
+
+.menu-section-header h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  color: var(--espresso);
+}
+
+.menu-section-subtitle {
+  grid-column: 1 / -1;
+  font-size: 0.88rem;
+  color: var(--text-light);
+  margin: -4px 0 4px;
+  font-style: italic;
+}
+
+.halal-badge {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 14px;
+  background: rgba(39,119,73,0.08);
+  border: 1px solid rgba(39,119,73,0.15);
+  border-radius: 100px;
+  font-size: 0.72rem; font-weight: 600;
+  color: #1a7a3a;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.halal-badge::before {
+  content: '\2713';
+  font-weight: 700;
+}
+
+/* Malatang highlight card */
+.menu-item.malatang-highlight {
+  background: linear-gradient(135deg, rgba(196,112,75,0.08), rgba(255,255,255,0.5));
+  border-color: rgba(196,112,75,0.2);
+}
+
+.menu-item.malatang-highlight:hover {
+  border-color: rgba(196,112,75,0.35);
+  box-shadow: 0 8px 32px rgba(196,112,75,0.1);
+}
+
+/* Vegetarian indicator */
+.veg-indicator {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 0.72rem; font-weight: 600;
+  color: var(--moss);
+  letter-spacing: 0.3px;
+}
+
+.veg-indicator::before {
+  content: '';
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--moss);
+  display: inline-block;
+}
+
+/* Scrollable tabs */
+.menu-tabs {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  max-width: 100%;
+}
+.menu-tabs::-webkit-scrollbar { display: none; }
 
 .menu-empty {
   grid-column: 1 / -1; text-align: center;
